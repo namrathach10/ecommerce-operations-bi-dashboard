@@ -14,7 +14,7 @@ The dashboard was developed using Microsoft Power BI and a synthetic e-commerce 
 - Analyze warehouse and delivery performance
 - Identify cancellation and return patterns
 - Understand customer ratings and complaints
-- Examine the relationship between discounts and profitability
+- Examine discount levels and their relationship with profitability
 - Generate data-driven business recommendations
 
 ## Tools & Technologies
@@ -44,6 +44,16 @@ Key data areas include:
 - Cancellations
 - Customer ratings
 - Complaints
+
+## Project Workflow
+
+1. Imported and examined the e-commerce dataset.
+2. Cleaned and validated the data using Power Query.
+3. Created business KPIs using DAX.
+4. Analyzed sales, profitability, operations, customers, returns, and complaints.
+5. Built interactive Power BI dashboards with slicers and visualizations.
+6. Identified operational and customer-related patterns.
+7. Developed data-driven business recommendations based on the analysis.
 
 ## Dashboard Structure
 
@@ -84,7 +94,7 @@ Analyzes:
 
 Analyzes:
 
-- New versus returning customers
+- Customer type distribution
 - Customer rating distribution
 - Return rate by category
 - Return reasons
@@ -110,7 +120,7 @@ Summarizes key findings from the analysis and provides business recommendations 
 - Product Quality was the most frequently recorded return reason.
 - Electronics recorded the highest number of complaints.
 - Customer ratings were concentrated around 4 and 5 stars.
-- Higher discount levels were associated with lower profitability in several order-level observations.
+- Discount levels and order-level profitability were analyzed to identify potential profitability trade-offs.
 
 ## Business Recommendations
 
@@ -121,27 +131,41 @@ Summarizes key findings from the analysis and provides business recommendations 
 - Use customer ratings and complaints to identify areas for customer-experience improvement.
 - Reduce avoidable returns, cancellations, and delivery delays while protecting profitability.
 
+## Skills Demonstrated
+
+- Business Intelligence and Dashboard Development
+- Data Cleaning and Transformation
+- Power Query
+- DAX
+- KPI Design
+- Sales and Profitability Analysis
+- Operations Analytics
+- Customer and Returns Analysis
+- Data Visualization
+- Business Insight Generation
+- Data-Driven Decision Making
+
 ## Dashboard Screenshots
 
 ### Executive Overview
 
-![Executive Overview](screenshots/executive-overview.png)
+[View Dashboard Image](screenshots/executive-overview.png)
 
 ### Sales & Profitability
 
-![Sales & Profitability](screenshots/sales-profitability.png)
+[View Dashboard Image](screenshots/sales-profitability.png)
 
 ### Operations Performance
 
-![Operations Performance](screenshots/operations-performance.png)
+[View Dashboard Image](screenshots/operations-performance.png)
 
 ### Customer & Returns
 
-![Customer & Returns](screenshots/customer-returns.png)
+[View Dashboard Image](screenshots/customer-returns.png)
 
 ### Business Insights
 
-![Business Insights](screenshots/business-insights.png)
+[View Dashboard Image](screenshots/business-insights.png)
 
 ## Project Files
 
@@ -149,6 +173,12 @@ Summarizes key findings from the analysis and provides business recommendations 
 - `powerbi/` — Power BI dashboard
 - `screenshots/` — Dashboard screenshots
 - `docs/` — Supporting project documentation
+
+## Dashboard
+
+The complete interactive dashboard is available as a Power BI `.pbix` file in the `powerbi/` folder.
+
+> Note: The interactive Power BI dashboard requires Microsoft Power BI Desktop to open.
 
 ## Disclaimer
 
